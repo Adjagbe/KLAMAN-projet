@@ -7,7 +7,7 @@ function Slide() {
       <div className='grid grid-cols-5 '>
         {
             [0,1,2,3,4].map((data, index)=>{
-                return <div style={{backgroundImage : `url(${silde})`, height: "calc(100vh - 6rem)"}}  className="bg-center bg-contain bg-no-repeat w-full ">
+                return <div style={{backgroundImage : `url(${silde})`, height: "calc(100vh - 6rem)"}}  className="bg-center bg-cover bg-no-repeat w-full ">
                     
                 </div>
             })
