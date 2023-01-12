@@ -5,3 +5,7 @@
 .layout{
     display: none;
 }
+
+body{
+    font-family: 'Montserrat', sans-serif !important;
+}
