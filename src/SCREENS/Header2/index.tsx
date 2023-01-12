@@ -3,7 +3,7 @@ import loupe from "../../ASSESTS/Images/loupe.png"
 
 function Header2() {
   return (
-    <div className='bg-pink-800 h-20 w-screen flex items-center space-x-5 px-10 mb-5'>
+    <div className='bg-pink-800 h-20 w-screen flex items-center space-x-5 px-10 '>
         <button className='bg-white h-14 w-32 px-5 '> Nouveau</button>
         <button className='bg-white h-14 w-32 px-5'> Hôtesse</button>
         <div className='border border-white boder-4 w-80 flex space-x-3'>

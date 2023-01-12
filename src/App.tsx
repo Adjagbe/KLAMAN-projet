@@ -7,7 +7,7 @@ import Portofolio from './PAGES/Portofolio';
 function App() {
   return (
     <div className="App">
-     <HomePage/>
+   
     </div>
   );
 }
