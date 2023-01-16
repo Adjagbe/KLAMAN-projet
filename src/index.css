@@ -9,3 +9,18 @@
 body{
     font-family: 'Montserrat', sans-serif !important;
 }
+
+.main-container {
+    position: fixed;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.max-width {
+    max-width: 1440px !important;
+}
