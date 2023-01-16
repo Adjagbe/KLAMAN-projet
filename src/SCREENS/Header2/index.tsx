@@ -9,7 +9,7 @@ function Header2() {
         <button className='bg-white h-14 w-30 px-2 font-medium hover:font-bold hover:text-pink-800'> Modèle photo</button>
         <div className='border border-white boder-4 w-52 h-14 flex space-x-3 flex items-center justify-center'>
             <div className='flex items-center text-white'>
-          <input type="radio"  id='homme' name='genre' /> Homme
+            <input type="radio"  id='homme' name='genre' /> Homme
             </div>
               <div className='flex items-center text-white'>
                   <input type="radio" id='femme' name='genre' /> Femme
