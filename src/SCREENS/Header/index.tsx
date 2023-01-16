@@ -5,8 +5,9 @@ import {  Link } from "react-router-dom";
 
 function Header() {
   return (
-        <div className='bg-black w-full h-24 flex items-center justify-between px-8'>
-              <div className="left-side flex items-center space-x-32 ">
+        <div className='bg-black w-full h-24 px-8 flex justify-center'>
+             <div className="w-full max-width flex items-center justify-between">
+               <div className="left-side flex items-center space-x-32 ">
                 <div className='w-60'><img src={logo}/></div>
                 <div className="flex space-x-5  text-sm">
                   <Link to="/"><div className='text-white hover:underline font-bold'>ACCUEIL</div></Link>
@@ -17,10 +18,11 @@ function Header() {
                 </div>
               </div>
 
-            <div className='flex space-x-4 text-sm divide-x '>
-              <div className='text-white font-bold flex space-x-2 items-center'><img src={user} style={{ width: "15px", height: "15px" }} /> <span>CONNEXION</span></div>
-              <div className='text-white font-bold flex space-x-2 items-center pl-2'><img src={user} style={{ width: "15px", height: "15px" }} /> <span>MON CATALOG</span></div>
-            </div>
+              <div className='flex space-x-4 text-sm divide-x '>
+                <div className='text-white font-bold flex space-x-2 items-center'><img src={user} style={{ width: "15px", height: "15px" }} /> <span>CONNEXION</span></div>
+                <div className='text-white font-bold flex space-x-2 items-center pl-2'><img src={user} style={{ width: "15px", height: "15px" }} /> <span>MON CATALOG</span></div>
+              </div>
+             </div>
         </div>
   )
 }

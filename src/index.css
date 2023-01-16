@@ -30,3 +30,10 @@ body{
 .profile-item:hover .profile-item-overlay{
 display: block;
 }
+.slide-profile-item {
+    height: calc(100vh - 6rem);
+}
+
+@media screen and (width > 1440px) {
+   
+}

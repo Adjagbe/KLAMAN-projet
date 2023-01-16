@@ -1,5 +1,6 @@
 import React from 'react'
 import image from '../../ASSESTS/Images/image14.png'
+import Pagination from '../../COMPONENTS/Pagination'
 import Footer2 from '../../SCREENS/Footer2'
 
 function Portofolio() {
@@ -25,10 +26,9 @@ function Portofolio() {
                   })
               }
           </div>
-          <div className='flex space-x-4 my-16 justify-center'> {[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map((data, index) => {
-              return <div className='bg-pink-800 rounded-full w-6 text-white flex items-center justify-center'>01</div>
-              
-          })}</div>
+            <div className="justify-center flex items-center w-full">
+            <Pagination/>
+            </div>
           <Footer2/>
 
     </div>
