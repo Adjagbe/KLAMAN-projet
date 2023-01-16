@@ -15,14 +15,16 @@ function Portofolio() {
           <div className='grid grid-cols-5'>
               {
                   [0, 1, 2, 3, 4, 5, 6, 7, 8, 9].map((data, index) => {
-                      return <div style={{ backgroundImage: `url(${image})`, height: "calc(100vh - 6rem)" }} className="bg-center bg-contain bg-no-repeat w-full ">
-
+                      return <div style={{ backgroundImage: `url(${image})`, height: "calc(100vh - 6rem)" }} className="bg-center bg-cover bg-no-repeat w-full  cursor-pointer">
+                        <i className="fa fa-play-circle hover:bg-black h-full hover:opacity-75 flex items-center justify-center" style={{ fontSize: "60px", color: "white" }}></i>
+                        
+                        
                       </div>
 
                   })
               }
           </div>
-          <div className='flex space-x-4 my-8 justify-center'> {[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map((data, index) => {
+          <div className='flex space-x-4 my-16 justify-center'> {[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map((data, index) => {
               return <div className='bg-pink-800 rounded-full w-6 text-white flex items-center justify-center'>01</div>
           })}</div>
           <Footer2/>

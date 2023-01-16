@@ -6,7 +6,7 @@ import {  Link } from "react-router-dom";
 function Header() {
   return (
     <div>
-        <div className='bg-black w-screen h-24 flex items-center space-x-32 px-8'>
+        <div className='bg-black w-screen h-24 flex items-center space-x-14 px-8'>
             <div className='w-60'><img src={logo}/></div>
             <div className="flex space-x-5  text-sm">
             <Link to="/"><div className='text-white hover:underline font-bold'>ACCUEIL</div></Link>

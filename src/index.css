@@ -9,3 +9,10 @@
 body{
     font-family: 'Montserrat', sans-serif !important;
 }
+
+.profile-item-overlay{
+    display: none;
+}
+.profile-item:hover .profile-item-overlay{
+display: block;
+}
