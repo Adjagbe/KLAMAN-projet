@@ -24,3 +24,9 @@ body{
 .max-width {
     max-width: 1440px !important;
 }
+.profile-item-overlay{
+    display: none;
+}
+.profile-item:hover .profile-item-overlay{
+display: block;
+}
