@@ -17,15 +17,17 @@ function HomePage() {
                                 <div className='profile-item-overlay'>
                                   <i className='fa fa-star mt-6' style={{ fontSize: "20px", color: 'yellow' }}></i>
                                   <i className="fa fa-plus-circle grid place-items-end pr-5" style={{fontSize:"40px",color:'white'}} ></i>
-                                  <div className='flex flex-col  text-white font-semibold '>
+                                  <div className='flex flex-col text-white font-semibold '>
                                     <div>N : 0234</div>
                                     <div> Age : 16 ans</div>
                                     <div> Taille : 1m78</div>
 
-                                    <div className='flex space-x-2'> 
+                                    <div className='flex space-x-2 my-2'> 
                                       <div><img src={groupe1} className="w-8"/></div>
                                       <div><img src={groupe2} className="w-8" /></div>
                                     </div>
+
+                                    <div className='text-4xl font-bold mb-3'> Belinda</div>
                                     
                                     <div className='bg-blue-600 w-36 h-8 flex items-center pl-2 space-x-3 my-2 text-sm'>
                                       <i className='fa fa-heart' style={{ color: "#D60A58", fontSize: "20px" }}></i>
@@ -40,8 +42,6 @@ function HomePage() {
                                       <div>Partager</div>
                                       <div>45</div>
                                     </div>
-
-                                    <div> Belinda</div>
                                   </div>
                                 </div>
                               </div>

@@ -8,7 +8,7 @@ function Header() {
         <div className='bg-black w-full h-24 px-8 flex justify-center'>
              <div className="w-full max-width flex items-center justify-between">
                <div className="left-side flex items-center space-x-32 ">
-                <div className='w-60'><img src={logo}/></div>
+          <Link to="/"><div className='w-60'><img src={logo} /></div></Link>
                 <div className="flex space-x-5  text-sm">
                   <Link to="/"><div className='text-white hover:underline font-bold'>ACCUEIL</div></Link>
                   <Link to="/klaman"><div className='text-white hover:underline font-bold'>KLAMAN</div></Link>
