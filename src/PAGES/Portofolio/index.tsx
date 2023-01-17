@@ -2,10 +2,15 @@ import React from 'react'
 import image from '../../ASSESTS/Images/image14.png'
 import Pagination from '../../COMPONENTS/Pagination'
 import Footer2 from '../../SCREENS/Footer2'
+import Header2 from '../../SCREENS/Header2'
+import Slide from '../../SCREENS/Slide'
 
 function Portofolio() {
   return (
+    
     <div className=''>
+      <Slide />
+      <Header2 />
         <div className='bg-black w-full h-20 flex items-center justify-center divide-x '>
         <button className='text-white w-60 h-20 text-lg focus:bg-white focus:text-pink-800 hover:bg-white hover:text-pink-800  px-3'> Tous</button>
         <button className='text-white w-60 h-20 text-lg focus:bg-white focus:text-pink-800 hover:bg-white hover:text-pink-800 px-2  '> Contrats Pub Photo</button>
