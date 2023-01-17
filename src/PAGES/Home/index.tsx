@@ -5,9 +5,13 @@ import Footer from '../../SCREENS/Footer'
 import silde from '../../ASSESTS/Images/image15.png'
 import groupe1 from '../../ASSESTS/Images/Groupe1.png'
 import groupe2 from '../../ASSESTS/Images/Groupe2.png'
+import Slide from '../../SCREENS/Slide'
+import Header2 from '../../SCREENS/Header2'
 
 function HomePage() {
   return<>
+    <Slide />
+    <Header2 />
         <div className='grid grid-cols-5 pt-6'>
               {
                   [0, 1, 2, 3, 4,5,6,7,8,9].map((data, index) => {

@@ -14,8 +14,7 @@ function App() {
         <Header/>
         <div className="w-full max-width">
           
-          <Slide/>
-          <Header2/>
+         
           <Routes>
 
             <Route path='/' element={<HomePage />} />

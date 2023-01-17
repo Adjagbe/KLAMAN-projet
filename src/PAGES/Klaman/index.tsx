@@ -1,10 +1,14 @@
 import React from 'react'
 import ornela from '../../ASSESTS/Images/Ornela.png'
 import Footer2 from '../../SCREENS/Footer2'
+import Header2 from '../../SCREENS/Header2'
+import Slide from '../../SCREENS/Slide'
 
 function Klaman() {
   return (
-    <div>
+    <>
+      <Slide />
+      <Header2 />
     <div className='bg-gray-300 flex items-center  justify-center'>
         <div className='flex flex-col'>
             <div className='text-5xl text-gray-600 font-semibold pr-64'>Klaman</div>
@@ -18,7 +22,7 @@ function Klaman() {
       
     </div>
     <Footer2/>
-    </div>
+    </>
   )
 }
 
