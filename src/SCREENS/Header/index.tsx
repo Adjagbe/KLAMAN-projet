@@ -13,7 +13,7 @@ function Header() {
                   <Link to="/"><div className='text-white hover:underline font-bold'>ACCUEIL</div></Link>
                   <Link to="/klaman"><div className='text-white hover:underline font-bold'>KLAMAN</div></Link>
                   <Link to="/portofolio"><div className='text-white hover:underline font-bold'>PORTOFOLIO</div></Link>
-                  <div className='text-white hover:underline font-bold'>NOUS REJOINDRE</div>
+                  <Link to="/Register"><div className='text-white hover:underline font-bold'>NOUS REJOINDRE</div></Link>
                   <div className='text-white hover:underline font-bold'>NOUS CONTACTER</div>
                 </div>
               </div>
