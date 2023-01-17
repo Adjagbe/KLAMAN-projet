@@ -21,6 +21,8 @@ body{
     align-items: center;
 }
 
+
+
 .max-width {
     max-width: 1440px !important;
 }
@@ -32,6 +34,25 @@ display: block;
 }
 .slide-profile-item {
     height: calc(100vh - 6rem);
+}
+
+.form-range{
+    -webkit-appearance: none;
+    outline: none;
+    height: 10px;
+    background: white ;
+    border-radius: 20px;
+    box-shadow: inset 0 0 5px white;
+    
+}
+
+.form-range::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    height: 10px;
+    border-radius: 58%;
+    background: white;
+    box-shadow: -410px 0 0 400px white;
+    cursor: pointer;
 }
 
 @media screen and (width > 1440px) {

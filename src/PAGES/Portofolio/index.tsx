@@ -7,10 +7,10 @@ function Portofolio() {
   return (
     <div className=''>
         <div className='bg-black w-full h-20 flex items-center justify-center divide-x '>
-            <button className='text-white w-40 h-20 text-lg focus:bg-white focus:text-pink-800  px-3'> Tous</button>
-              <button className='text-white w-44 h-20 text-lg focus:bg-white focus:text-pink-800 px-2  '> Contrats Pub Photo</button>
-              <button className='text-white w-44 h-20 text-lg focus:bg-white focus:text-pink-800 px-2'> Contrats Pub video</button>
-              <button className='text-white w-40 h-20 text-lg focus:bg-white focus:text-pink-800 px-3 '> Hôtesse Events</button>
+        <button className='text-white w-60 h-20 text-lg focus:bg-white focus:text-pink-800 hover:bg-white hover:text-pink-800  px-3'> Tous</button>
+        <button className='text-white w-60 h-20 text-lg focus:bg-white focus:text-pink-800 hover:bg-white hover:text-pink-800 px-2  '> Contrats Pub Photo</button>
+        <button className='text-white w-60 h-20 text-lg focus:bg-white focus:text-pink-800 hover:bg-white hover:text-pink-800 px-2'> Contrats Pub video</button>
+        <button className='text-white w-60 h-20 text-lg focus:bg-white focus:text-pink-800 hover:bg-white hover:text-pink-800 px-3 '> Hôtesse Events</button>
         </div>
 
           <div className='grid grid-cols-5'>
