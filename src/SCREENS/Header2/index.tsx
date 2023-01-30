@@ -1,6 +1,5 @@
 import React from 'react'
 import loupe from "../../ASSESTS/Images/loupe.png"
-import RangeSlider from 'react-range-slider-input';
 import 'react-range-slider-input/dist/style.css';
 function Header2() {
   return (

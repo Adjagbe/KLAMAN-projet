@@ -12,26 +12,6 @@ function HomePage() {
   return<>
     <Slide />
     <Header2 />
-<<<<<<< HEAD
-    <div className='grid grid-cols-5 pt-6'>
-          {
-              [0, 1, 2, 3, 4,5,6,7,8,9].map((data, index) => {
-                return <div style={{ backgroundImage: `url(${silde})`, height: 600}} className="profile-item bg-center bg-cover bg-no-repeat w-full cursor-pointer ">
-                          
-                          <div className=" hover:bg-black h-full hover:opacity-80 pl-5">
-                            <div className='profile-item-overlay'>
-                              <i className='fa fa-star mt-6' style={{ fontSize: "20px", color: 'yellow' }}></i>
-                              <i className="fa fa-plus-circle grid place-items-end pr-5" style={{fontSize:"40px",color:'white'}} ></i>
-                              <div className='flex flex-col text-white font-semibold '>
-                                <div>N : 0234</div>
-                                <div> Age : 16 ans</div>
-                                <div> Taille : 1m78</div>
-
-                                <div className='flex space-x-2 my-2'> 
-                                  <div><img src={groupe1} className="w-8"/></div>
-                                  <div><img src={groupe2} className="w-8" /></div>
-                                </div>
-=======
         <div className='grid grid-cols-5 pt-6'>
               {
                   [0, 1, 2, 3, 4,5,6,7,8,9].map((data, index) => {
@@ -50,7 +30,6 @@ function HomePage() {
                                       <div><img src={groupe1} className="w-8"/></div>
                                       <div><img src={groupe2} className="w-8" /></div>
                                     </div>
->>>>>>> 0b57c74aecac94b8cc6330166ca8fa0abb706814
 
                                 <div className='text-4xl font-bold mb-3'> Belinda</div>
                                 
