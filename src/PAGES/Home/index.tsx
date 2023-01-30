@@ -15,7 +15,7 @@ function HomePage() {
         <div className='grid grid-cols-5 pt-6'>
               {
                   [0, 1, 2, 3, 4,5,6,7,8,9].map((data, index) => {
-                    return <div style={{ backgroundImage: `url(${silde})`, height: 600}} className="profile-item bg-center bg-cover bg-no-repeat w-full cursor-pointer ">
+                    return <div style={{ backgroundImage: `url(${silde})`,  height: 360}} className="profile-item bg-center bg-cover bg-no-repeat w-full cursor-pointer ">
                               
                               <div className=" hover:bg-black h-full hover:opacity-80 pl-5">
                                 <div className='profile-item-overlay'>
