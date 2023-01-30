@@ -1,6 +1,7 @@
 import React from 'react'
 import loupe from "../../ASSESTS/Images/loupe.png"
-
+import RangeSlider from 'react-range-slider-input';
+import 'react-range-slider-input/dist/style.css';
 function Header2() {
   return (
     <div className='bg-pink-800 h-20 w-full flex items-center justify-center space-x-3 '>
