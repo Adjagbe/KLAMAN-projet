@@ -21,7 +21,7 @@ function Portofolio() {
           <div className='grid grid-cols-5'>
               {
                   [0, 1, 2, 3, 4, 5, 6, 7, 8, 9].map((data, index) => {
-                      return <div style={{ backgroundImage: `url(${image})`, height: "calc(100vh - 6rem)" }} className="bg-center bg-cover bg-no-repeat w-full ">
+                      return <div style={{ backgroundImage: `url(${image})`, height: "360px" }} className="bg-center bg-cover bg-no-repeat w-full ">
                         <div className='hover:bg-black opacity-75 h-full cursor-pointer flex items-center justify-center'>
                           <i className='fa fa-play-circle' style={{color:"white", fontSize:"60px"}}></i>
                         </div>
