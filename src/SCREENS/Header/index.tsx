@@ -13,14 +13,13 @@ function Header() {
                   <Link to="/"><div className='text-white hover:underline font-bold'>ACCUEIL</div></Link>
                   <Link to="/klaman"><div className='text-white hover:underline font-bold'>KLAMAN</div></Link>
                   <Link to="/portofolio"><div className='text-white hover:underline font-bold'>PORTOFOLIO</div></Link>
-                  <Link to="/Register"><div className='text-white hover:underline font-bold'>NOUS REJOINDRE</div></Link>
+                  <Link to="/register"><div className='text-white hover:underline font-bold'>NOUS REJOINDRE</div></Link>
                   <div className='text-white hover:underline font-bold'>NOUS CONTACTER</div>
                 </div>
               </div>
 
               <div className='flex space-x-4 text-sm divide-x '>
                 <div className='text-white font-bold flex space-x-2 items-center'><img src={user} style={{ width: "15px", height: "15px" }} /> <span>CONNEXION</span></div>
-                <div className='text-white font-bold flex space-x-2 items-center pl-2'><img src={user} style={{ width: "15px", height: "15px" }} /> <span>MON CATALOG</span></div>
               </div>
              </div>
         </div>

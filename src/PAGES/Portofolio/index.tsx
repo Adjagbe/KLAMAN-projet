@@ -10,7 +10,7 @@ function Portofolio() {
     
     <div className=''>
       <Slide />
-      <Header2 />
+      {/* <Header2 /> */}
         <div className='bg-black w-full h-20 flex items-center justify-center divide-x '>
         <button className='text-white w-60 h-20 text-lg focus:bg-white focus:text-pink-800 hover:bg-white hover:text-pink-800  px-3'> Tous</button>
         <button className='text-white w-60 h-20 text-lg focus:bg-white focus:text-pink-800 hover:bg-white hover:text-pink-800 px-2  '> Contrats Pub Photo</button>
@@ -32,7 +32,7 @@ function Portofolio() {
               }
           </div>
             <div className="justify-center flex items-center w-full">
-            <Pagination/>
+            {/* <Pagination/> */}
             </div>
           <Footer2/>
 

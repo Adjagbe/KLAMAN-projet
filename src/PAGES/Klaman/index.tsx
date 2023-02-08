@@ -8,7 +8,7 @@ function Klaman() {
   return (
     <>
       <Slide />
-      <Header2 />
+      {/* <Header2 /> */}
     <div className='bg-gray-300 flex items-center  justify-center'>
         <div className='flex flex-col'>
             <div className='text-5xl text-gray-600 font-semibold pr-64'>Klaman</div>

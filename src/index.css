@@ -81,3 +81,13 @@ input:focus{
 @media screen and (width > 1440px) {
    
 }
+
+.css-187mznn-MuiSlider-root {
+    color: #fff !important;
+    width: 200px !important;
+}
+
+.css-14pt78w-MuiSlider-rail {
+    background-color: #fff !important;
+    opacity: 1 !important;
+}
